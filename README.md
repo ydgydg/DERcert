@@ -14,8 +14,8 @@ python setup.py install
 # Usage
 DERcert is very simple to use，You just need to call the appropriate function。Here are the instructions for using DERcert</br>
 First, get a digital certificate on the network，as shown in the figure below
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step1.JPG)</br>
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step2.JPG)</br>
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step3.JPG)</br>
-
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step_1.png)</br>
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step_2.png)</br>
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step_3.png)</br>
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step5.png)</br>
 
