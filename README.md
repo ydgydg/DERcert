@@ -9,6 +9,8 @@ redis = 4.3.4</br>
 requests = 2.27.1</br>
 matplotlib = 3.5.1</br>
 graphviz = 0.20</br>
+or</br>
+python setup.py install
 # Usage
 DERcert is very simple to use，You just need to call the appropriate function。Here are the instructions for using DERcert</br>
 First, get a digital certificate on the network，as shown in the figure below：
