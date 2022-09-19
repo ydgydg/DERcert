@@ -12,13 +12,16 @@ graphviz = 0.20</br>
 or</br>
 python setup.py install
 # About OID
-OBJECT IDENTIFIER(OID),Oid types represent standard specifications in a hierarchical form, defined with a dotted decimal decimal symbol.<br>
+OBJECT IDENTIFIER(OID),Oid types represent standard specifications in a hierarchical form, defined with a dotted decimal decimal symbol.
 OID is popular in public key algorithm standards and indicates which hash algorithm the certificate is bound to.</br>
 OID encoding rule：</br>
-IF the first two parts are defined as x.y, then they will synthesize a byte 40 * x + y,and thw rest will be encoded as a byte alone.</br>
-Each byte is first divided into a minimum number of seven digits without the head zero digit. </br>
-The numbers are organized in Big-Endian format and grouped one after the other into bytes. The highest bit (bit 8) of all bytes except the last encoded byte is 1.
-
+IF the first two parts are defined as x.y, then they will synthesize a byte 40 * x + y,and thw rest will be encoded as a byte alone.
+Each byte is first divided into a minimum number of seven digits without the head zero digit. 
+The numbers are organized in Big-Endian format and grouped one after the other into bytes. The highest bit (bit 8) of all bytes except the last encoded byte is 1.</br>
+Example:</br>
+1.Convert 1.2.840.113549.2.5 into a word group{42, 840, 113549, 2, 5}.</br>
+2.Then solit every byte into seven digits with the highest bit.{{0x2A},{0x86,0x48},{0x86,0xF7,0x0D},{0x02},{0x05}}.</br>
+3.The final complete code is 0x06 08 2A 86 48 86 F7 0D 02 05.
 # Usage
 DERcert is very simple to use，You just need to call the appropriate function。Here are the instructions for using DERcert</br>
 First, get a digital certificate on the network，as shown in the figure below：
