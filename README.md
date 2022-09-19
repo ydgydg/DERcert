@@ -11,6 +11,14 @@ matplotlib = 3.5.1</br>
 graphviz = 0.20</br>
 or</br>
 python setup.py install
+# About OID
+OBJECT IDENTIFIER(OID),Oid types represent standard specifications in a hierarchical form, defined with a dotted decimal decimal symbol.<br>
+OID is popular in public key algorithm standards and indicates which hash algorithm the certificate is bound to.</br>
+OID encoding rule：</br>
+IF the first two parts are defined as x.y, then they will synthesize a byte 40 * x + y,and thw rest will be encoded as a byte alone.</br>
+Each byte is first divided into a minimum number of seven digits without the head zero digit. </br>
+The numbers are organized in Big-Endian format and grouped one after the other into bytes. The highest bit (bit 8) of all bytes except the last encoded byte is 1.
+
 # Usage
 DERcert is very simple to use，You just need to call the appropriate function。Here are the instructions for using DERcert</br>
 First, get a digital certificate on the network，as shown in the figure below：
