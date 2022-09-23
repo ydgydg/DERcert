@@ -30,7 +30,7 @@ First, get a digital certificate on the network，as shown in the figure below�
 Select a certificate from the digital certificate library for parsing.This step parses the digital certificate into a tree structure and saves it as a binary character file.The parsing process is shown in the following figure：
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step_2.png)</br>
 After parsing, a tree structure will be formed, as shown below.</br>
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/幻灯片11)</br>
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/幻灯片11.JPG)</br>
 After the parsing, it enters the mutation process，as shown in the figure below：
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step_3.png)</br>
 Finally, the mutated binary character file is saved as a digital certificate.
