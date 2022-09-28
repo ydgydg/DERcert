@@ -35,5 +35,8 @@ After the parsing, it enters the mutation process，as shown in the figure below
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step_3.png)</br>
 Finally, the mutated binary character file is saved as a digital certificate.
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step5.png)</br>
+# License
+DERCert is licensed under the Mozilla Public License Version2.0.</br>
+See the [LICENSE](https://github.com/ydgydg/DERcert/blob/main/LICENSE)
 # Contact
 You can contact me by email if you have any questions:yangdonggang_123@163.com
