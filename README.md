@@ -10,6 +10,7 @@ redis = 4.3.4</br>
 requests = 2.27.1</br>
 matplotlib = 3.5.1</br>
 graphviz = 0.20</br>
+We provide a Ubuntu environment in floder named "environment"
 or</br>
 python setup.py install
 # About OID
