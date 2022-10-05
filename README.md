@@ -1,7 +1,7 @@
 # DERcert
 This is a tool to generate new digital certificates based on DER encoded X.509 digital certificate mutation.The tool can effectively mutate X.509 certificates to generate diversified digital certificates.</br>
 The flow chart of DERcert is shown below</br>
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/%E5%B9%BB%E7%81%AF%E7%89%8714.JPG)
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/process.jpg)
 # Requirments
 Windows10 or Ubuntu-20.04.3
 Python ≥ 3.5</br>
