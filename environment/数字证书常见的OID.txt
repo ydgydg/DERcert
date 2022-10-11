@@ -1,0 +1,7 @@
+2.5.29.19  basicConstraints
+2.5.29.14  subjectKeyIdentifier
+2.5.29.14  keyUsage
+2.5.29.31  cRLDistributionPoints
+2.5.29.35  authorityKeyIdentifier
+2.5.29.32  Certificate Policies
+2.5.29.17  Subject Alternative Name
