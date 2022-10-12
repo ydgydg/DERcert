@@ -27,6 +27,9 @@ Example:</br>
 # Mutation process
 We classify the mutation process as OID-guided and non-OID-guided。</br>
 Non-OID-guided mutation process is as follows：</br>
+
+
+OID-guided mutation process is as follows:</br>
 # Usage
 DERcert is very simple to use，You just need to call the appropriate function。Here are the instructions for using DERcert</br>
 First, get a digital certificate on the network，as shown in the figure below：
