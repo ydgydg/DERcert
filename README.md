@@ -16,15 +16,26 @@ Example:</br>
 This is a tool to generate new digital certificates based on DER encoded X.509 digital certificate mutation.The tool can effectively mutate X.509 certificates to generate diversified digital certificates.</br>
 The flow chart of DERcert is shown below</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/process.jpg)
+## ParseCert
+Parse the DER encoded digital certificate into a tree structure. After parsing, an operable binary character file will be obtained.</br>
 ## Mutation process
 We classify the mutation process as OID-guided and non-OID-guided。</br>
-Non-OID-guided mutation process is as follows：</br>
+### Non-OID-guided mutation process is as follows：</br>
 1.Firstly, a digital certificate is selected from the digital certificate library as a seed digital certificate.</br>
 2.The seed digital certificate is sent to the certificate parser for parsing，The parser parses the seed digital certificate into a tree structure.</br>
 The flow chart of tree structure is shown below</br>                                                             
-
-OID-guided mutation process is as follows:</br>
-
+![Image_test](https://github.com/ydgydg/DERcert/blob/main/image/tree_stru/1.JPG)
+3.We mutate based on the tree structure:</br>
+  * Leaf node value mutation</br>
+  * Deleting a leaf node</br>
+  * Add a leaf node</br>
+  * Delete the middle node</br>
+  * Add the middle node</br>
+  * The left and right nodes in the middle are swapped</br>
+### OID-guided mutation process is as follows:</br>
+We select an OID and locate its position in the tree,and then,we mute the selected OID.The mutation method is the same as that described in Step 3 of non-OID-guided mutation.</br>
+## SaveCert
+Re-save the mutated binary character file as a digital certificate.</br>
 # Requirments
 Windows10 or Ubuntu-20.04.3
 Python ≥ 3.5</br>
