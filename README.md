@@ -21,8 +21,7 @@ We classify the mutation process as OID-guided and non-OID-guided。</br>
 Non-OID-guided mutation process is as follows：</br>
 1.Firstly, a digital certificate is selected from the digital certificate library as a seed digital certificate.</br>
 2.The seed digital certificate is sent to the certificate parser for parsing，The parser parses the seed digital certificate into a tree structure.</br>
-The flow chart of tree structure is shown below</br>
-![Tree structure diagram(Take a fragment for example)](https://github.com/ydgydg/DERcert/blob/main/image/Tree_image/1.JPG)                                                              
+The flow chart of tree structure is shown below</br>                                                             
 
 OID-guided mutation process is as follows:</br>
 
