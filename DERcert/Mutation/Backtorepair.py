@@ -102,6 +102,26 @@ class BackingRepalr(object):
         node.length.pop(0)
         node.length.append(newFatherlen)
         return node.length
+class repairTag(object):
+    '''
+    修复Tag工具类
+    当一个结点删除叶节点后，该节点变成非嵌套的时候，需要修复Tag  从嵌套的Tag改成非嵌套的 即把 0011改成0000
+    '''
+    @staticmethod
+    def repairtag(TreeNode):
+        '''
+        :param TreeNode: 被删除子节点的父节点
+        :return:
+        '''
+        tag_ele = TreeNode.tag[0]
+        t = list(tag_ele)
+        t[2] = '0'
+        new_tag_ele = ''.join(t)
+        if len(TreeNode.value) == 0:
+            TreeNode.tag[0] = new_tag_ele
+        else:
+            return TreeNode
+        return TreeNode
 # c_mute = tree.TreeNode(['00000010'],['00000010'],['00000001','00000011'])
 # c_mute.tag.append('00000010')
 # c_mute.length.append('00000010')
