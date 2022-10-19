@@ -1,6 +1,6 @@
 # DERcert
 ## Background
-X.509 certificates are encoded by Distinguished Encoding Rules (DER),DER coding always follows a specific data structure,tis data structure consists of three fields: Tag, Length and Value, so it is called TLV structure.Each field consists of one or more bytes. The label specifies the type of the data structure, the length indicates the length of the Value, and the value field stores the data content.</br>
+X.509 certificates are encoded by Distinguished Encoding Rules (DER),DER coding always follows a specific data structure,this data structure consists of three fields: Tag, Length and Value, so it is called TLV structure.Each field consists of one or more bytes. The label specifies the type of the data structure, the length indicates the length of the Value, and the value field stores the data content.</br>
 ## About OID
 OBJECT IDENTIFIER(OID),Oid types represent standard specifications in a hierarchical form, defined with a dotted decimal decimal symbol.
 OID is popular in public key algorithm standards and indicates which hash algorithm the certificate is bound to.</br>
