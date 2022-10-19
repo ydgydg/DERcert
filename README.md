@@ -35,7 +35,7 @@ The flow chart of tree structure is shown below</br>
 ### OID-guided mutation process is as follows:</br>
 We select an OID and locate its position in the tree,and then,we mute the selected OID.The mutation method is the same as that described in Step 3 of non-OID-guided mutation.</br>
 ## SaveCert
-Re-save the mutated binary character file as a digital certificate.</br>
+Save the binary character file as a digital certificate.</br>
 # Requirments
 Windows10 or Ubuntu-20.04.3
 Python ≥ 3.5</br>
