@@ -15,7 +15,7 @@ Example:</br>
 ## Overview
 This is a tool to generate new digital certificates based on DER encoded X.509 digital certificate mutation.The tool can effectively mutate X.509 certificates to generate diversified digital certificates.</br>
 The flow chart of DERcert is shown below</br>
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/process.jpg)
+![process](https://github.com/ydgydg/DERcert/blob/main/image/process_flow.jpg)
 ## ParseCert
 Parse the DER encoded digital certificate into a tree structure. After parsing, an operable binary character file will be obtained.</br>
 ## Mutation process
