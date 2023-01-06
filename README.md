@@ -47,17 +47,17 @@ graphviz = 0.20</br>
 We provide a Ubuntu environment and some documents in floder named "environment"
 # Usage
 DERcert is very simple to use，You just need to call the appropriate function。Here are the instructions for using DERcert</br>
-First, get a digital certificate on the network，as shown in the figure below：
+First, get a digital certificate on the network，as shown in the figure below：</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/getcerts.png)</br>
 Select a certificate from the digital certificate library for parsing.This step parses the digital certificate into a tree structure and saves it as a binary character file.The parsing process is shown in the following figure：</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/parsecerts.png)</br>
 After parsing, a tree structure will be formed, as shown below.</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/幻灯片11.JPG)</br>
-After the parsing, it enters the mutation process，as shown in the figure below：
+After the parsing, it enters the mutation process，as shown in the figure below：</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/mutatecerts.png)</br>
-Finally, the mutated binary character file is saved as a digital certificate.
+Finally, the mutated binary character file is saved as a digital certificate.</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/savecerts.png)</br>
-The function call diagram is shown below：
+The function call diagram is shown below：</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/call_graph.png)</br>
 # License
 DERCert is licensed under the Mozilla Public License Version2.0.</br>
