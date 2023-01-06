@@ -57,7 +57,8 @@ After the parsing, it enters the mutation process，as shown in the figure below
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/mutatecerts.png)</br>
 Finally, the mutated binary character file is saved as a digital certificate.
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/savecerts.png)</br>
-
+The function call diagram is shown below：
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/call_graph.png)</br>
 # License
 DERCert is licensed under the Mozilla Public License Version2.0.</br>
 See the [LICENSE](https://github.com/ydgydg/DERcert/blob/main/LICENSE)
