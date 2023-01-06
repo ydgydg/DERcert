@@ -49,7 +49,7 @@ We provide a Ubuntu environment and some documents in floder named "environment"
 DERcert is very simple to use，You just need to call the appropriate function。Here are the instructions for using DERcert</br>
 First, get a digital certificate on the network，as shown in the figure below：
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/getcerts.png)</br>
-Select a certificate from the digital certificate library for parsing.This step parses the digital certificate into a tree structure and saves it as a binary character file.The parsing process is shown in the following figure：
+Select a certificate from the digital certificate library for parsing.This step parses the digital certificate into a tree structure and saves it as a binary character file.The parsing process is shown in the following figure：</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/parsecerts.png)</br>
 After parsing, a tree structure will be formed, as shown below.</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/幻灯片11.JPG)</br>
