@@ -1,0 +1,10 @@
+Decimal          Hex                            OID name
+2.5.29.19       55 1d 13                 basicConstraints
+2.5.29.14       55 1d 0e                 subjectKeyIdentifier
+2.5.29.15       55 1d 0f                 keyUsage
+2.5.29.31       55 1d 1f                 cRLDistributionPoints
+2.5.29.35       55 1d 23                 authorityKeyIdentifier
+2.5.29.32       55 1d 20                 Certificate Policies
+2.5.29.17       55 1d 11                 Subject Alternative Name
+2.5.29.37       55 1d 25                 anypurpose
+
