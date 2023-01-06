@@ -37,28 +37,26 @@ We select an OID and locate its position in the tree,and then,we mute the select
 ## SaveCert
 Save the binary character file as a digital certificate.</br>
 # Requirments
-Windows10 or Ubuntu-20.04.3
+Ubuntu-20.04.3
 Python ≥ 3.5</br>
 openssl = 1.1.1f</br>
 redis = 4.3.4</br>
 requests = 2.27.1</br>
 matplotlib = 3.5.1</br>
 graphviz = 0.20</br>
-We provide a Ubuntu environment in floder named "environment"
-or</br>
-python setup.py install
+We provide a Ubuntu environment and some documents in floder named "environment"
 # Usage
 DERcert is very simple to use，You just need to call the appropriate function。Here are the instructions for using DERcert</br>
 First, get a digital certificate on the network，as shown in the figure below：
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step_1.png)</br>
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/getcerts.png)</br>
 Select a certificate from the digital certificate library for parsing.This step parses the digital certificate into a tree structure and saves it as a binary character file.The parsing process is shown in the following figure：
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step_2.png)</br>
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/parsecerts.png)</br>
 After parsing, a tree structure will be formed, as shown below.</br>
 ![Image text](https://github.com/ydgydg/DERcert/blob/main/image/幻灯片11.JPG)</br>
 After the parsing, it enters the mutation process，as shown in the figure below：
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step_3.png)</br>
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/mutatecerts.png)</br>
 Finally, the mutated binary character file is saved as a digital certificate.
-![Image text](https://github.com/ydgydg/DERcert/blob/main/image/step5.png)</br>
+![Image text](https://github.com/ydgydg/DERcert/blob/main/image/savecerts.png)</br>
 
 # License
 DERCert is licensed under the Mozilla Public License Version2.0.</br>
