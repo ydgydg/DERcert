@@ -18,7 +18,7 @@ def do_connect(hostname, p, level):
         TLSv1_METHOD.
     :return:Certchain
     '''
-    s = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     context = SSL.Context(level)
     conn = SSL.Connection(context, s)
     conn.connect((hostname, p))
