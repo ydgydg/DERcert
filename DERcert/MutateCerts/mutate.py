@@ -88,7 +88,7 @@ def add(node,_node, _newValue):
     _node["value"] = f'T:{_node["tag"]}  |  L:{to_binary(int(_node["length"]))}  |  V:{_node["node-value"]}'
     change_length(node, _node["node-id"], +1)
 
-def add_nopair(_node, _newValue):
+def add_norepair(_node, _newValue):
     '''
     function:Value added without repair
     :param data: List of data
@@ -114,7 +114,7 @@ def exchange(data,_node1, _node2):
     change_length(data, _node1["node-id"], node_1_change_length)
     change_length(data, _node2["node-id"], node_2_change_length)
 
-def exchange_nopair(_node1, _node2):
+def exchange_norepair(_node1, _node2):
     '''
     function:Exchange of nodes without repair
     :param data: List of data
